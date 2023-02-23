@@ -1,1 +1,90 @@
-<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Information">0</SubType><Level>8</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2387288Z" /><Source Name="System.ServiceModel.MessageLogging" /><Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><MessageLogTraceRecord Time="2023-02-22T09:39:12.2377314+01:00" Source="TransportSend" Type="System.ServiceModel.Dispatcher.OperationFormatter+OperationFormatterMessage" xmlns="http://schemas.microsoft.com/2004/06/ServiceModel/Management/MessageTrace"><Addressing><Action>http://tempuri.org/IEmployeeService/GetEmployee</Action><To>http://localhost:8080/EmployeeService</To></Addressing><HttpRequest><Method>POST</Method><QueryString></QueryString><WebHeaders><VsDebuggerCausalityData>uIDPo+sULlMrUNlJqsN+BJz/cw0AAAAAfnViC1JRSkK/+goIGm2cBG3GukDfiCFFj9qRKcGDu04ACQAA</VsDebuggerCausalityData></WebHeaders></HttpRequest><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header><ActivityId CorrelationId="fcf60b3d-f6c1-44d7-a788-e80c855ff144" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">00000000-0000-0000-0000-000000000000</ActivityId></s:Header><s:Body><GetEmployee xmlns="http://tempuri.org/"><Id>1</Id></GetEmployee></s:Body></s:Envelope></MessageLogTraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Information">0</SubType><Level>8</Level><TimeCreated SystemTime="2023-02-22T08:39:15.1809377Z" /><Source Name="System.ServiceModel.MessageLogging" /><Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><MessageLogTraceRecord Time="2023-02-22T09:39:15.1799352+01:00" Source="TransportReceive" Type="System.ServiceModel.Channels.BufferedMessage" xmlns="http://schemas.microsoft.com/2004/06/ServiceModel/Management/MessageTrace"><HttpResponse><StatusCode>OK</StatusCode><StatusDescription>OK</StatusDescription><WebHeaders><Content-Length>572</Content-Length><Content-Type>text/xml; charset=utf-8</Content-Type><Date>Wed, 22 Feb 2023 08:39:15 GMT</Date><Server>Microsoft-HTTPAPI/2.0</Server></WebHeaders></HttpResponse><s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Header></s:Header><s:Body><GetEmployeeResponse xmlns="http://tempuri.org/"><GetEmployeeResult i:type="b:FullTimeEmployee" xmlns:a="http://pragimtech.com/Employee" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="http://schemas.datacontract.org/2004/07/EmployeeService"><a:Id>1</a:Id><a:Name>Nenad</a:Name><a:Gender>male</a:Gender><a:DateOfBirth>1991-01-01T00:00:00</a:DateOfBirth><a:Type>FullTimeEmployee</a:Type><b:AnnualSalary>2200</b:AnnualSalary></GetEmployeeResult></GetEmployeeResponse></s:Body></s:Envelope></MessageLogTraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Information">0</SubType>
+		<Level>8</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2387288Z" />
+		<Source Name="System.ServiceModel.MessageLogging" />
+		<Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<MessageLogTraceRecord Time="2023-02-22T09:39:12.2377314+01:00" Source="TransportSend" Type="System.ServiceModel.Dispatcher.OperationFormatter+OperationFormatterMessage" xmlns="http://schemas.microsoft.com/2004/06/ServiceModel/Management/MessageTrace">
+					<Addressing>
+						<Action>http://tempuri.org/IEmployeeService/GetEmployee</Action>
+						<To>http://localhost:8080/EmployeeService</To>
+					</Addressing>
+					<HttpRequest>
+						<Method>POST</Method>
+						<QueryString/>
+						<WebHeaders>
+							<VsDebuggerCausalityData>uIDPo+sULlMrUNlJqsN+BJz/cw0AAAAAfnViC1JRSkK/+goIGm2cBG3GukDfiCFFj9qRKcGDu04ACQAA</VsDebuggerCausalityData>
+						</WebHeaders>
+					</HttpRequest>
+					<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+						<s:Header>
+							<ActivityId CorrelationId="fcf60b3d-f6c1-44d7-a788-e80c855ff144" xmlns="http://schemas.microsoft.com/2004/09/ServiceModel/Diagnostics">00000000-0000-0000-0000-000000000000</ActivityId>
+						</s:Header>
+						<s:Body>
+							<GetEmployee xmlns="http://tempuri.org/">
+								<Id>1</Id>
+							</GetEmployee>
+						</s:Body>
+					</s:Envelope>
+				</MessageLogTraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Information">0</SubType>
+		<Level>8</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:15.1809377Z" />
+		<Source Name="System.ServiceModel.MessageLogging" />
+		<Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<MessageLogTraceRecord Time="2023-02-22T09:39:15.1799352+01:00" Source="TransportReceive" Type="System.ServiceModel.Channels.BufferedMessage" xmlns="http://schemas.microsoft.com/2004/06/ServiceModel/Management/MessageTrace">
+					<HttpResponse>
+						<StatusCode>OK</StatusCode>
+						<StatusDescription>OK</StatusDescription>
+						<WebHeaders>
+							<Content-Length>572</Content-Length>
+							<Content-Type>text/xml; charset=utf-8</Content-Type>
+							<Date>Wed, 22 Feb 2023 08:39:15 GMT</Date>
+							<Server>Microsoft-HTTPAPI/2.0</Server>
+						</WebHeaders>
+					</HttpResponse>
+					<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+						<s:Header/>
+						<s:Body>
+							<GetEmployeeResponse xmlns="http://tempuri.org/">
+								<GetEmployeeResult i:type="b:FullTimeEmployee" xmlns:a="http://pragimtech.com/Employee" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:b="http://schemas.datacontract.org/2004/07/EmployeeService">
+									<a:Id>1</a:Id>
+									<a:Name>Nenad</a:Name>
+									<a:Gender>male</a:Gender>
+									<a:DateOfBirth>1991-01-01T00:00:00</a:DateOfBirth>
+									<a:Type>FullTimeEmployee</a:Type>
+									<b:AnnualSalary>2200</b:AnnualSalary>
+								</GetEmployeeResult>
+							</GetEmployeeResponse>
+						</s:Body>
+					</s:Envelope>
+				</MessageLogTraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>

@@ -1,1 +1,264 @@
-<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.1457679Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Start">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.1561364Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Stop">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Construct ChannelFactory. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName><ActivityType>Construct</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Start">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ClientBase. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Stop">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Open ClientBase. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName><ActivityType>Open</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Start">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IEmployeeService/GetEmployee'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>0</EventID><Type>3</Type><SubType Name="Transfer">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:15.1879562Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData></ApplicationData></E2ETraceEvent><E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent"><System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system"><EventID>131085</EventID><Type>3</Type><SubType Name="Stop">0</SubType><Level>255</Level><TimeCreated SystemTime="2023-02-22T08:39:15.1879562Z" /><Source Name="System.ServiceModel" /><Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" /><Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" /><Channel/><Computer>KGHY-NENADK</Computer></System><ApplicationData><TraceData><DataItem><TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop"><TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier><Description>Activity boundary.</Description><AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain><ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord"><ActivityName>Process action 'http://tempuri.org/IEmployeeService/GetEmployee'.</ActivityName><ActivityType>ProcessAction</ActivityType></ExtendedData></TraceRecord></DataItem></TraceData></ApplicationData></E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.1457679Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Start">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.1561364Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Construct ChannelFactory. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName>
+						<ActivityType>Construct</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Stop">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{43ecb7f4-7751-4170-989d-abefb5fe8d00}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Construct ChannelFactory. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName>
+						<ActivityType>Construct</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Start">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2008520Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Open ClientBase. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName>
+						<ActivityType>Open</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Stop">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{36506c56-ce18-4bde-9424-a2dac7be3c6b}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Open ClientBase. Contract type: 'EmployeeClient.EmployeeService.IEmployeeService'.</ActivityName>
+						<ActivityType>Open</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" RelatedActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Start">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:12.2062644Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Start">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Process action 'http://tempuri.org/IEmployeeService/GetEmployee'.</ActivityName>
+						<ActivityType>ProcessAction</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>0</EventID>
+		<Type>3</Type>
+		<SubType Name="Transfer">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:15.1879562Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" RelatedActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData/>
+</E2ETraceEvent>
+<E2ETraceEvent xmlns="http://schemas.microsoft.com/2004/06/E2ETraceEvent">
+	<System xmlns="http://schemas.microsoft.com/2004/06/windows/eventlog/system">
+		<EventID>131085</EventID>
+		<Type>3</Type>
+		<SubType Name="Stop">0</SubType>
+		<Level>255</Level>
+		<TimeCreated SystemTime="2023-02-22T08:39:15.1879562Z" />
+		<Source Name="System.ServiceModel" />
+		<Correlation ActivityID="{21845f84-f86d-4d47-9ff4-080e0bc1fc82}" />
+		<Execution ProcessName="iisexpress" ProcessID="6004" ThreadID="6" />
+		<Channel/>
+		<Computer>KGHY-NENADK</Computer>
+	</System>
+	<ApplicationData>
+		<TraceData>
+			<DataItem>
+				<TraceRecord xmlns="http://schemas.microsoft.com/2004/10/E2ETraceEvent/TraceRecord" Severity="Stop">
+					<TraceIdentifier>https://docs.microsoft.com/dotnet/framework/wcf/diagnostics/tracing/System-ServiceModel-Diagnostics-ActivityBoundary</TraceIdentifier>
+					<Description>Activity boundary.</Description>
+					<AppDomain>/LM/W3SVC/2/ROOT-1-133215287412313376</AppDomain>
+					<ExtendedData xmlns="http://schemas.microsoft.com/2006/08/ServiceModel/DictionaryTraceRecord">
+						<ActivityName>Process action 'http://tempuri.org/IEmployeeService/GetEmployee'.</ActivityName>
+						<ActivityType>ProcessAction</ActivityType>
+					</ExtendedData>
+				</TraceRecord>
+			</DataItem>
+		</TraceData>
+	</ApplicationData>
+</E2ETraceEvent>
